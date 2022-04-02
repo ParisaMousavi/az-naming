@@ -14,3 +14,7 @@ output "public_ip_name" {
 output "application_gateway_name" {
   value = "${var.suffix != null ? join("-",[var.project_name, var.suffix]) : var.project_name}-${var.subscription}-${var.region_short}-${var.environment}"  
 }
+
+output "application_keyvault" {
+  value = "${var.suffix != null ? join("-",[var.project_name, var.suffix]) : var.project_name}-${var.subscription}-${var.region_short}-${var.environment}"  
+}
