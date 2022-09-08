@@ -6,6 +6,6 @@ variable "stage" {
   type = string
 }
 
-variable "location" {
+variable "location_shortname" {
   type = string
 }
