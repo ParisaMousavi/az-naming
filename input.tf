@@ -4,7 +4,7 @@ variable "project_name" {
 
 variable "suffix" {
   type    = string
-  default = null 
+  default = null
 }
 
 variable "subscription" {
