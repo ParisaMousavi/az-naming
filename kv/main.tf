@@ -2,6 +2,6 @@ resource "random_string" "name_suffix" {
   length  = 5
   lower   = true
   upper   = false
-  number  = true
+  numeric  = true
   special = false
 }
