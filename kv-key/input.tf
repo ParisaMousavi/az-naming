@@ -17,6 +17,6 @@ variable "prefix" {
 }
 
 variable "location_shortname" {
-  type = string
+  type    = string
   default = ""
 }
