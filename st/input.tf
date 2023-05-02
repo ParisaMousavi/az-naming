@@ -15,3 +15,7 @@ variable "assembly" {
 variable "prefix" {
   type = string
 }
+
+variable "location_shortname" {
+  type = string
+}
